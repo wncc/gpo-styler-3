@@ -1,0 +1,16 @@
+{
+  "name": "GPO Styler",
+  "version": "1.0",
+  "description": "Style you IITB Mailbox",
+  "browser_action":
+  {
+    "default_icon": "iitb_logo.png"    
+  },
+  "content_scripts":
+  [{
+	"matches":["http://gpo.iitb.ac.in/*"],
+	"css":["style.css"],
+	"js":["gpostyler3.js"],
+	"all_frames": true
+  }]
+}
