@@ -39,7 +39,7 @@ window.location = "http://gpo.iitb.ac.in/src/right_main.php";
 },
 
 composePageHandler: function() {
-document.body.innerHTML = "<html> <head> <title>SquirrelMail 1.4.19</title> <frameset rows="95,*"> <frame src="iit.htm" frameborder="0"/> <frameset cols="10%,*"> <frame src="top.htm" frameborder="0"/> <frame src="gpo-compose-rudimentary.htm" frameborder="0"/> </frameset> </frameset> </html>";
+document.body.innerHTML = '<html> <head> <title>SquirrelMail 1.4.19</title> <frameset rows="95,*"> <frame src="iit.htm" frameborder="0"/> <frameset cols="10%,*"> <frame src="top.htm" frameborder="0"/> <frame src="gpo-compose-rudimentary.htm" frameborder="0"/> </frameset> </frameset> </html>';
 },
 
 mainPageHandler : () {
