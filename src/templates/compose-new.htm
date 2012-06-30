@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Compose</title>
+<link href='style1.css' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+<h2>IIT Bombay</h2>
+<h3>SquirrelMail</h3>
+
+<div id='left'>
+<table align='center'>
+<br />
+<tr><td class='button'><a href='http://gpo.iitb.ac.in/src/
+compose.php?mailbox=INBOX&startMessage=1\'>COMPOSE</a>
+</td></tr>
+<tr><td><a href='http://gpo.iitb.ac.in/src/right_main.php?PG_SHOWALL=0&sort=0&startMessage=1&mailbox=INBOX\'>Inbox</a></td></tr>
+
+<tr><td><a href='http://gpo.iitb.ac.in/src/right_main.php?PG_SHOWALL=0&sort=0&startMessage=1&mailbox=INBOX.Sent\'>Sent</a></td></tr>
+<tr><td><a href='http://gpo.iitb.ac.in/src/right_main.php?PG_SHOWALL=0&sort=0&startMessage=1&mailbox=INBOX.Drafts\'>Drafts</a></td></tr>
+<tr><td><a href='http://gpo.iitb.ac.in/src/right_main.php?PG_SHOWALL=0&sort=0&startMessage=1&mailbox=INBOX.Spam\'>Spam</a></td></tr>
+<tr><td><a href='http://gpo.iitb.ac.in/src/right_main.php?PG_SHOWALL=0&sort=0&startMessage=1&mailbox=INBOX.Trash\'>Trash</a></td></tr>
+<tr><td><a href='#\'>Folders</a></td></tr>
+</table>
+</div>
+
+<div id='right'>
+<form name='compose' method='post' action='compose.php' enctype='multipart/form-data'>
+<table border='0'>
+<tr>
+<td>
+To:</td><td> <input type='text' name='send_to' size='70' name='reciever'/></td>
+</tr><tr>
+<td>
+Cc:</td><td> <input type='text' name='send_to_cc' size='70' name='other-cpy'/></td>
+</tr><tr>
+<td>
+Bcc:</td><td> <input type='text' name='send_to_bcc' size='70' name='other-bcpy'/></td>
+</tr><tr>
+<td>
+Subject:</td><td> <input type='text' name='subject' size='70' name='subject'/></td>
+</tr>
+</table>
+<br />
+<table border='0'>
+<tr>
+<td>
+Priority:</td><td colspan='6'>
+<select name='priority'>
+<option>Normal</option>
+<option>Urgent</option>
+</select>
+Receipt:
+<input type='checkbox' name='when-to' id='p1'>
+<label for='p1'>On Read</label>
+<input type='checkbox' name='when-to' id='p2'>
+<label for='p2'>On Delivery</label></td>
+</tr>
+</table>
+<br />
+<table>
+<tr>
+<td> <input type='submit' class='submit' name='sigappend'
+value='Signature'> 
+<input type='submit' class='submit' name='html_addr_search' value='Addresses'>
+</td></tr></table>
+<table border='0'>
+<tr>
+<td>
+<textarea name='message' rows='15' cols='145'></textarea></td>
+</tr></table>
+<center>
+<input type='submit' value='Send' class='submit'>
+<input type='submit' value='Save in Drafts' class='submit'>
+</center>
+<table>
+<tr>
+<td valign='middle' bgcolor='silver'>
+<input type='hidden' name='MAX_FILE_SIZE' value='8388608'>
+<input name='attachfile' size='48' type='file'>    &nbsp;&nbsp;
+<input type='submit' name='attach' value='Add'>  
+(max.&nbsp;8<small>&nbsp;M</small>)   </td>  </tr>
+</table>
+
+</form>
+</div>
+</body>
+</html>

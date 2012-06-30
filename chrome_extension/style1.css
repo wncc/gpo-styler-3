@@ -1,0 +1,171 @@
+
+/*
+Design template
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	color: #757575;
+}
+
+
+h2 {	background-color: indigo;
+        color: white;
+	        
+}
+
+h3 {	background-color: silver;
+	color: 110022;
+	text-align:left;
+}
+
+
+p {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+}
+
+
+
+
+td {font-variant: small-caps; color: 222222}
+
+
+
+
+.allcaps {
+font-variant: small-caps;
+}
+
+div.my_wrapper
+{
+    width: 100%;
+}
+
+div.my_left_box{
+    float: left;
+    padding: 10px;
+    width: 40%;
+    min-height: 330px;
+    overflow: visible;
+    border: 1px solid gray;
+    margin-top :5px;
+    margin-left	:5%;
+}
+
+div.my_right_box{
+    float: right;
+    padding: 10px;
+    width: 40%;
+    min-height: 330px;
+    overflow: visible;
+    border: 1px solid gray;
+    margin-top :5px;
+    margin-right:5%;
+}
+
+.button {width: 110px;height:29px;background-color: indianred;
+background-image: -webkit-linear-gradient(top,indianred,indianred);
+background-image: -moz-linear-gradient(top,indianred,indianred);
+background-image: -ms-linear-gradient(top,indianred,indianred);
+background-image: -o-linear-gradient(top,indianred,indianred);
+background-image: linear-gradient(top,indianred,indianred);
+color: white;border: 1px solid transparent;
+border: 1px solid transparent;
+border-image: initial;-webkit-border-radius: 2px;
+-moz-border-radius: 2px;border-radius: 2px;cursor: default;
+font-size: 11px;font-weight: bold;text-align: center;
+margin-right: 16px;height: 27px;line-height: 27px;
+min-width: 54px;outline: 0;padding: 0 8px;}
+
+.button a {color : white;}
+
+#left {
+    width: 10%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#right {
+    width: 89%;
+    float: right;
+    
+    
+}
+
+.submit {width: 110px;height:29px;background-color: indigo;
+background-image: -webkit-linear-gradient(top,indigo,indigo);
+background-image: -moz-linear-gradient(top,indigo,indigo);
+background-image: -ms-linear-gradient(top,indigo,indigo);
+background-image: -o-linear-gradient(top,indigo,indigo);
+background-image: linear-gradient(top,indigo,indigo);
+color: white;border: 1px solid transparent;
+border: 1px solid transparent;
+border-image: initial;-webkit-border-radius: 2px;
+-moz-border-radius: 2px;border-radius: 2px;cursor: default;
+font-size: 11px;font-weight: bold;text-align: center;
+margin-right: 16px;height: 27px;line-height: 27px;
+min-width: 54px;outline: 0;padding: 0 8px;}
+
+
+
+#unread_mails {
+
+}
+#read_mails {
+    padding-top: 10px;
+}
+.details_summary {
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 4px;
+}
+
+.read {
+    background-color: #f3f3f3;
+    color: #222;
+}
+
+.mail_entry {
+    height: 33px; 
+    color: #222;
+    background: rgba(255, 255, 255, .9);
+    border:1px solid #888;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.checkbox {
+
+}
+
+.sender {
+
+    padding-right: 6px;
+    padding-left: 10px;
+}
+
+.subject {
+
+}
+
+.time {
+
+}
+.c1 {width: 24px;} .c2{width: 400px;} 
+.c4 {float:right; width:50px;}
+.c3 {width: 50px;}    	
