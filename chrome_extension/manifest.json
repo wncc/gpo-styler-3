@@ -9,8 +9,8 @@
   "content_scripts":
   [{
 	"matches":["http://gpo.iitb.ac.in/*"],
-	"css":["style.css"],
-	"js":["gpostyler3.js"],
+	"css":["style1.css"],
+	"js":["gpostyler31.js"],
 	"all_frames": true
   }]
 }
