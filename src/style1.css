@@ -6,10 +6,35 @@ Design template
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Abel', sans-serif;
+	font-family: geneva,arial;
 	font-size: 16px;
 	color: #757575;
 }
+
+
+
+#navigation {
+   text-align:right;
+   background-color:deepskyblue4;
+   height: 29px;
+   font-weight: bold;
+}
+
+
+#logoAndSearch {
+  height: 62px;
+}
+#logo {
+    padding-left: 5px;
+	background-color: silver;
+  
+}
+
+height: 62px;
+}
+
+
+
 
 
 h2 {	background-color: indigo;
@@ -31,12 +56,33 @@ p {
 
 a {
 	text-decoration: none;
-	color: blue;
+	color: deepskyblue4;
 }
 
 a:hover {
+ color:indigo;
 }
 
+li a:hover {
+    color: indigo;
+}
+
+
+#left_pane {
+    width: 10%;
+    max-width: 176px;
+    margin-left:5px;
+    margin-right: 10px;
+    position: relative;
+    float:left;
+}
+
+
+#right_pane {
+    width: 89%;
+    position:relative;
+    float:right;
+}
 
 
 
@@ -60,7 +106,7 @@ div.my_left_box{
     width: 40%;
     min-height: 330px;
     overflow: visible;
-    border: 1px solid gray;
+    border: 1px purple;
     margin-top :5px;
     margin-left	:5%;
 }
@@ -71,17 +117,17 @@ div.my_right_box{
     width: 40%;
     min-height: 330px;
     overflow: visible;
-    border: 1px solid gray;
+    border: 1px purple;
     margin-top :5px;
     margin-right:5%;
 }
 
-.button {width: 110px;height:29px;background-color: indianred;
-background-image: -webkit-linear-gradient(top,indianred,indianred);
-background-image: -moz-linear-gradient(top,indianred,indianred);
-background-image: -ms-linear-gradient(top,indianred,indianred);
-background-image: -o-linear-gradient(top,indianred,indianred);
-background-image: linear-gradient(top,indianred,indianred);
+.button {width: 110px;height:29px;background-color: purple;
+background-image: -webkit-linear-gradient(top,purple,purple);
+background-image: -moz-linear-gradient(top,purple,purple);
+background-image: -ms-linear-gradient(top,purple,purple);
+background-image: -o-linear-gradient(top,purple,purple);
+background-image: linear-gradient(top,purple,purple);
 color: white;border: 1px solid transparent;
 border: 1px solid transparent;
 border-image: initial;-webkit-border-radius: 2px;
@@ -143,7 +189,7 @@ min-width: 54px;outline: 0;padding: 0 8px;}
     height: 33px; 
     color: #222;
     background: rgba(255, 255, 255, .9);
-    border:1px solid #888;
+    border:1px solid purple;
     font-size: 14px;
     padding-top: 7px;
     padding-bottom: 7px;
