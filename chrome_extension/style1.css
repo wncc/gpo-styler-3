@@ -6,19 +6,42 @@ Design template
 body {
 	margin: 0;
 	padding: 0;
-	font-family: geneva,arial;
+	font-family: times;
 	font-size: 16px;
 	color: #757575;
-	background-color: steelblue;
+        background-color: lightblue; 
 }
 
 
 
 #navigation {
-   text-align:right;
-   background-color:deepskyblue4;
+   background-color:purple;
    height: 29px;
    font-weight: bold;
+   width: 110px;
+   background-color: indigo;
+   background-image: -webkit-linear-gradient(top,purple,purple);
+   background-image: -moz-linear-gradient(top,purple,purple);
+   background-image: -ms-linear-gradient(top,purple,purple);
+   background-image: -o-linear-gradient(top,purple,purple);
+   background-image: linear-gradient(top,purple,purple);
+   color: white;
+   border: 1px solid transparent;
+   border: 1px solid transparent;
+   border-image: initial;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+    border-radius: 2px;cursor: default;
+   font-size: 11px;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 1230px;
+   margin-right: 16px;
+   height: 27px;
+   line-height: 27px;
+   min-width: 54px;
+   outline: 0;padding: 0 8px;}
+
 }
 
 
@@ -40,10 +63,13 @@ height: 62px;
 
 h2 {	background-color: indigo;
         color: white;
+        font-weight:bold;
+        text-align:center;
+        font-size: 200%;
 	        
 }
 
-h3 {	background-color: silver;
+h3 {	background-color: lightblue;
 	color: 110022;
 	text-align:left;
 }
@@ -56,14 +82,35 @@ p {
 
 
 a {
-	text-decoration: none;
-	color: darkblue;
-	font-weight: bold;
-}
+   text-decoration:none;
+   font-size: 110%;		
+   }
 
-a:hover {
- color:indigo;
- background-color: darksalmon;	
+a:hover {	
+   width: 120px;
+   background-color: purple;
+   background-image: -webkit-linear-gradient(top,purple,purple);
+   background-image: -moz-linear-gradient(top,purple,purple);
+   background-image: -ms-linear-gradient(top,purple,purple);
+   background-image: -o-linear-gradient(top,purple,purple);
+   background-image: linear-gradient(top,purple,purple);
+   color: white;
+   border: 1px solid transparent;
+   border: 1px solid transparent;
+   border-image: initial;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+    border-radius: 2px;
+   cursor: default;
+   font-size: 140%;
+   text-align: center;
+   margin-right: 16px;
+   height: 27px;
+   line-height: 27px;
+   min-width: 54px;
+   outline: 0;padding: 0 8px;}
+
+
 }
 
 li a:hover {
@@ -89,7 +136,7 @@ li a:hover {
 
 
 
-td {font-variant: small-caps; color: 222222}
+td { color: 222222}
 
 
 
@@ -198,7 +245,16 @@ min-width: 54px;outline: 0;padding: 0 8px;}
     padding-bottom: 7px;
 }
 
-.checkbox {
+.checkbox { 
+        background-color: #EEEEEE;
+        font-style: italic;
+       width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	display: block;
+	clear: left;
+	float: left;
+    }
 
 }
 
