@@ -9,6 +9,7 @@ body {
 	font-family: geneva,arial;
 	font-size: 16px;
 	color: #757575;
+	background-color: steelblue;
 }
 
 
@@ -28,7 +29,7 @@ body {
     padding-left: 5px;
 	background-color: silver;
   
-}
+
 
 height: 62px;
 }
@@ -56,11 +57,13 @@ p {
 
 a {
 	text-decoration: none;
-	color: deepskyblue4;
+	color: darkblue;
+	font-weight: bold;
 }
 
 a:hover {
  color:indigo;
+ background-color: darksalmon;	
 }
 
 li a:hover {
@@ -190,7 +193,7 @@ min-width: 54px;outline: 0;padding: 0 8px;}
     color: #222;
     background: rgba(255, 255, 255, .9);
     border:1px solid purple;
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
@@ -212,6 +215,6 @@ min-width: 54px;outline: 0;padding: 0 8px;}
 .time {
 
 }
-.c1 {width: 24px;} .c2{width: 400px;} 
-.c4 {float:right; width:50px;}
-.c3 {width: 50px;}    	
+.c1 {width: 24px;} .c2{width: 300px;} 
+.c4 {float:right; width:40px;}
+.c3 {width: 700px;}    	
